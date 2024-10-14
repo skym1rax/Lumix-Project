@@ -3,7 +3,8 @@
 			================= BODY =================
 */
 body{
-owverflow: hidden;
+owverflow-x: hidden;
+owverflow-y: hidden;
 max-width: 100%; 
 height: auto;
 
