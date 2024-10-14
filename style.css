@@ -3,8 +3,8 @@
 			================= BODY =================
 */
 body{
-	color: #f1f1f1;
-  	/* Basic dimensions and centering */
+  color: #f1f1f1;
+  overflow: hidden;
   display: flex;
   justify-content: center;
   align-items: center;
