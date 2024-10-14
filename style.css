@@ -3,7 +3,7 @@
 body{
 	overflow: hidden;
 	transform: scale(1);
-	max-width: 100%; 
+	width: 100%; 
 	height: auto;
 	touch-action: manipulation;
 	color: #f1f1f1;
