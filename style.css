@@ -3,6 +3,7 @@
 			================= BODY =================
 */
 body{
+owverflow: hidden;
 max-width: 100%; 
 height: auto;
 
