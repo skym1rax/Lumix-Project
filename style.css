@@ -3,15 +3,18 @@
 			================= BODY =================
 */
 body{
-  color: #f1f1f1;
-  overflow: hidden;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+max-width: 100%; 
+height: auto;
 
-  /* Dark mode colors and gradient */
-  background: #000000; /* Fallback for browsers that don't support gradients */
-  background: linear-gradient(
+	color: #f1f1f1;
+  	/* Basic dimensions and centering */
+  	display: flex;
+  	justify-content: center;
+  	align-items: center;
+
+  	/* Dark mode colors and gradient */
+ 	 background: #000000; /* Fallback for browsers that don't support gradients */
+  	background: linear-gradient(
     0deg,
     #000000 25%,
     #202020 25%,
@@ -20,12 +23,12 @@ body{
     #000000 75%,
     #202020 75%,
     #202020
-  );
-  background-size: 100px 100px;
+  	);
+  	background-size: 100px 100px;
 
-  /* Animation */
-  animation: move 1s linear infinite;
-	  font-family: Montserrat;
+  	/* Animation */
+  	animation: move 1s linear infinite;
+	font-family: Montserrat;
 }
 
 @keyframes move {
