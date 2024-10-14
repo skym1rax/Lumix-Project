@@ -2,7 +2,7 @@
 
 body{
 	overflow: hidden;
-	transform: scale(1.2);
+	transform: scale(1.1);
 	max-width: 100%; 
 	height: auto;
 	touch-action: manipulation;
